@@ -69,15 +69,15 @@ btn_sub.grid(row=2, column=3)
 # Row 3 - 1 2 3 *
 
 btn_1 = Button(main, padx=16, bd=8, fg="black",
-               font=("arial", 20, "bold"), text="4", command=lambda: buttonClick(1))
+               font=("arial", 20, "bold"), text="1", command=lambda: buttonClick(1))
 btn_1.grid(row=3, column=0)
 
 btn_2 = Button(main, padx=16, bd=8, fg="black",
-               font=("arial", 20, "bold"), text="5", command=lambda: buttonClick(2))
+               font=("arial", 20, "bold"), text="2", command=lambda: buttonClick(2))
 btn_2.grid(row=3, column=1)
 
 btn_3 = Button(main, padx=16, bd=8, fg="black",
-               font=("arial", 20, "bold"), text="6", command=lambda: buttonClick(3))
+               font=("arial", 20, "bold"), text="3", command=lambda: buttonClick(3))
 btn_3.grid(row=3, column=2)
 
 btn_mul = Button(main, padx=16, bd=8, fg="black",
